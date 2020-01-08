@@ -177,6 +177,11 @@ namespace エンジン
 				状態を進める();
 			}
 			break;
+
+		case 11:
+			if (3.0f < 状態での時間_) {
+				状態_ = 0;
+			}
 		default:
 			// 何も起きない....
 			break;
