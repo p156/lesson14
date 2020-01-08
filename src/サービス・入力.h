@@ -19,6 +19,7 @@ namespace エンジン {
 			下,
 			左,
 			右,
+			シフト,
 		};
 
 		static constexpr unsigned int マスク_スタート	= (1 << スタート);
@@ -29,6 +30,7 @@ namespace エンジン {
 		static constexpr unsigned int マスク_下			= (1 << 下);
 		static constexpr unsigned int マスク_左			= (1 << 左);
 		static constexpr unsigned int マスク_右			= (1 << 右);
+		static constexpr unsigned int マスク_シフト		= (1 << シフト);
 
 	private:
 		unsigned char 前フレーム_ = 0;

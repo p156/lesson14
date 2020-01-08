@@ -14,6 +14,7 @@ namespace エンジン {
 			{KEY_INPUT_DOWN,	マスク_下},
 			{KEY_INPUT_LEFT,	マスク_左},
 			{KEY_INPUT_RIGHT,	マスク_右},
+			{KEY_INPUT_LSHIFT,	マスク_シフト},
 			{0xff, }
 		};
 
